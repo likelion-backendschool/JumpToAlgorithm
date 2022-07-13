@@ -21,6 +21,12 @@
 
 <br>
 
+### 📂 폴더 구조
+- src/본인이름/주차/Q문제번호.java
+- ex. src/chanki/week3/Q1463.java
+
+<br>
+
 ## 👨‍💻 Github
 
 ### Branch, Commit 규칙
