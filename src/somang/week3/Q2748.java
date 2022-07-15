@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class Q2748 {
 
     /*
-        [Baekjoon-1309]피보나치 수 2
+        [Baekjoon-2748]피보나치 수 2
         ⏰ 80ms
      */
 
