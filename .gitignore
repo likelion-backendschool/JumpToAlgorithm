@@ -19,6 +19,9 @@
 *.zip
 *.tar.gz
 *.rar
+*.iml
+.DS_Store
+src/.DS_Store
 .idea/
 out/
 
