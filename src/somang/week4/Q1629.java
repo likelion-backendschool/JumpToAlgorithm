@@ -1,4 +1,4 @@
-package somang.week5;
+package somang.week4;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class Q1629 {
 
     /*
-        [Baekjoon-1629] 곱셈
+        [Baekjoon-1629]곱셈
         ⏰ 80ms
      */
 
