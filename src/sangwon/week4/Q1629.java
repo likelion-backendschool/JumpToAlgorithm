@@ -1,6 +1,7 @@
-package sangwon.week5;
+package sangwon.week4;
 
 import java.io.*;
+import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class Q1629{
@@ -8,7 +9,6 @@ public class Q1629{
     static long calc(int a, int b, int c){
 
         if(b == 1) return a % c;
-        System.out.println(a % c);
 
         long ans = calc(a, b/2, c);
         ans = ans * ans % c;
@@ -17,11 +17,10 @@ public class Q1629{
 
         return ans * a % c;
 
-
     }
 
     public static void main(String[] args) throws IOException {
-
+        
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -40,7 +39,6 @@ public class Q1629{
         bw.write(calc(a,b,c)+"");
         bw.flush();
         bw.close();
-
 
 
     }
