@@ -11,6 +11,7 @@ import java.util.StringTokenizer;
 
 public class Q17436 {
 
+    //소수 받는 배열
     static int arr[];
     static ArrayList<Long> al;
     static void combi(int[] arr, boolean[] visited, int start, int n, int r){
@@ -90,6 +91,7 @@ public class Q17436 {
         bw.flush();
         bw.close();
         br.close();
+
 
     }
 }
