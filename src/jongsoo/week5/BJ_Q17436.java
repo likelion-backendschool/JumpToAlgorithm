@@ -1,7 +1,7 @@
 package jongsoo.week5;
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.util.*;
+
 
 
 public class BJ_Q17436{
