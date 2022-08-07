@@ -6,7 +6,7 @@ import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class Q10430 {
+public class B10430 {
     public static void main(String[] args) throws Exception {
         int a, b, c;
         String[] input;

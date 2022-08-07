@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Stack;
 
-public class Q9012 {
+public class B9012 {
     public static void main(String[] args) throws IOException {
         String str;
         char character;

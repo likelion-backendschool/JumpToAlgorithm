@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class Q10828 {
+public class B10828 {
     public static void main(String[] args) throws IOException {
         ArrayList num = new ArrayList<Integer>();
         int length;

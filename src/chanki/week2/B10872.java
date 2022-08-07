@@ -6,7 +6,7 @@ import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class Q10872 {
+public class B10872 {
     public static void main(String[] args) throws Exception{
         int num;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

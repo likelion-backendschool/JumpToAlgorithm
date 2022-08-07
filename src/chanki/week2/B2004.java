@@ -6,7 +6,7 @@ import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class Q2004 {
+public class B2004 {
     public static void main(String[] args) throws Exception{
         int n, m;
         int cnt2 = 0;

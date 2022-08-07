@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.HashMap;
 
-public class Q2609 {
+public class B2609 {
     public static void main(String[] args) throws Exception {
         int a, b;
         int num = 2;

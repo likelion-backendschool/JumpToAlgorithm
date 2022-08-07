@@ -4,7 +4,7 @@ package chanki.week2;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Q1929 {
+public class B1929 {
     public static void main(String[] args) throws Exception {
         String[] input;
 

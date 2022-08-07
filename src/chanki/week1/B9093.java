@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Stack;
 
-public class Q9093 {
+public class B9093 {
     public static void main(String[] args) throws IOException {
         String str;
         Stack stack = new Stack();
