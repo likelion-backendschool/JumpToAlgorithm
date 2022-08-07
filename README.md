@@ -21,7 +21,12 @@
 
 ### 📂 폴더 구조
 - src/본인이름/주차/Q문제번호.java
-- ex. src/chanki/week3/Q1463.java
+- 파일명
+  - 백준
+    src/chanki/week3/B1463.java
+  - 프로그래머스
+    src/chanki/week3/P1463.java
+
 
 <br>
 
