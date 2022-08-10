@@ -3,20 +3,9 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.StringTokenizer;
 
-public class Q2609 {
-	
-	static int GCD(int a, int b) {
-		
-		if(b == 0) return a;	
-		return GCD(b, a%b);
-	}
-	
-	static int LCM(int a, int b) {
-		
-		return (a * b / GCD(a,b));
-	}
+
+public class BJ1676 {
 	
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -24,15 +13,27 @@ public class Q2609 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));		
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		br.close();
+		int n = Integer.parseInt(br.readLine());
+		int ans[] = new int[2];
 		
-		int n = Integer.parseInt(st.nextToken());
-		int m = Integer.parseInt(st.nextToken());
+		for(int i = 2; i <= n; i++) {
+			int tmp = i;
+			while(tmp % 2 == 0 || tmp % 5 == 0) {
+				if(tmp % 2 == 0) {
+					ans[0]++;
+					tmp /= 2;
+				}
+				
+				if(tmp % 5 == 0) {
+					ans[1]++;
+					tmp /= 5;
+				}
+			}
+		}
 		
-		bw.write(GCD(n, m)+"\n"+LCM(n, m)+"");
+		bw.write(Math.min(ans[0], ans[1])+"");
 		bw.flush();
 		bw.close();
-		
+		br.close();
 	}
 }

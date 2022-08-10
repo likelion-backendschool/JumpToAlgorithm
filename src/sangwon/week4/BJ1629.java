@@ -1,10 +1,9 @@
 package sangwon.week4;
 
 import java.io.*;
-import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Q1629{
+public class BJ1629 {
 
     static long calc(int a, int b, int c){
 

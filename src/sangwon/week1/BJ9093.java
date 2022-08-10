@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Q9093 {
+public class BJ9093 {
 	
 	public static void main(String[] args) throws IOException {
 		

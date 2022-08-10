@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 //week5 Q2162 카드2
-public class Q2164 {
+public class BJ2164 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -3,7 +3,7 @@ package sangwon.week3;
 import java.util.*;
 import java.io.*;
 
-public class Q2193 {
+public class BJ2193 {
 
 
     public static void main(String[] args) throws IOException {

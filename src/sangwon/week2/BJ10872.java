@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Q10872 {
+public class BJ10872 {
 	
 	
 					

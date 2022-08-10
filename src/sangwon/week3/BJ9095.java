@@ -1,9 +1,9 @@
 package sangwon.week3;
 
-import java.util.*; import java.math.*;
+import java.util.*;
 
 
-public class Q9095 {
+public class BJ9095 {
 
     public static void main(String[] args) {
 
