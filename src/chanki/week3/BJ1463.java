@@ -7,7 +7,7 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class B1463 {
+public class BJ1463 {
     public static void main(String[] args) throws Exception {
         ArrayList<Integer> arr = new ArrayList(List.of(0, 0, 1, 1, 2));
 

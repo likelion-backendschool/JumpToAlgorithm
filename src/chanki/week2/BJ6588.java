@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 
-public class B6588 {
+public class BJ6588 {
     public static void main(String[] args) throws Exception {
         int num;
         boolean wrong = true;

@@ -7,7 +7,7 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class B9095 {
+public class BJ9095 {
     public static void main(String[] args) throws Exception {
         ArrayList<Integer> way = new ArrayList<>(Arrays.asList(1, 2, 4));
 
