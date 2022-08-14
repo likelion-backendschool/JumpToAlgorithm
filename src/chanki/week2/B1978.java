@@ -6,26 +6,37 @@ import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class Q10430 {
+public class B1978 {
     public static void main(String[] args) throws Exception {
-        int a, b, c;
+        int test;
+        int cnt = 0;
         String[] input;
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
+        test = Integer.parseInt(br.readLine());
         input = br.readLine().split(" ");
 
-        a = Integer.parseInt(input[0]);
-        b = Integer.parseInt(input[1]);
-        c = Integer.parseInt(input[2]);
+        for(int i = 0; i < test; i++) {
+            if(isPrime(Integer.parseInt(input[i]))) {
+                cnt++;
+            }
+        }
 
-        bw.write((a + b) % c + "\n");
-        bw.write(((a % c) + (b % c)) % c + "\n");
-        bw.write((a * b) % c + "\n");
-        bw.write(((a % c) * (b % c)) % c + "\n");
+        bw.write(cnt + "");
 
         bw.flush();
         bw.close();
+    }
+
+    static boolean isPrime(int num) {
+        if(num == 1)
+            return false;
+        for(int i = 2; i <= Math.pow(num, 0.5); i++) {
+            if(num % i == 0)
+                return false;
+        }
+        return true;
     }
 }

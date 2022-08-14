@@ -7,7 +7,7 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Q15990 {
+public class B15990 {
     public static void main(String[] args) throws Exception {
         ArrayList<Long> startOne = new ArrayList<Long>(List.of(0l, 1l, 0l, 1l));
         ArrayList<Long> startTwo = new ArrayList<Long>(List.of(0l, 0l, 1l, 1l));

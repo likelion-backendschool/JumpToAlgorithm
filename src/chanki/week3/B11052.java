@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Q16194 {
+public class B11052 {
     public static void main(String[] args) throws Exception {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -17,42 +17,42 @@ public class Q16194 {
         int targetCard = Integer.parseInt(br.readLine());
 
         List<Integer> cardPrices = Arrays.stream(br.readLine().split(" ")).map(Integer::parseInt).collect(Collectors.toList());
-        ArrayList<Integer> minCardPrices = new ArrayList<>();
+        ArrayList<Integer> maxCardPrices = new ArrayList<>();
 
-        int min = 0;
+        int max = 0;
         int compare;
 
-        minCardPrices.add(cardPrices.get(0));
+        maxCardPrices.add(cardPrices.get(0));
 
-        if(minCardPrices.get(0) * 2 < cardPrices.get(1)) {
-            minCardPrices.add(minCardPrices.get(0) * 2);
+        if(maxCardPrices.get(0) * 2 < cardPrices.get(1)) {
+            maxCardPrices.add(cardPrices.get(1));
         } else {
-            minCardPrices.add(cardPrices.get(1));
+            maxCardPrices.add(maxCardPrices.get(0) * 2);
         }
 
         for(int i = 2; i < cardPrices.size(); i++) {
-            min = cardPrices.get(i);
+            max = cardPrices.get(i);
             for(int j = 0; j < i - 1; j++) {
-                compare = minCardPrices.get(j) + minCardPrices.get(i - 1 - j);
-                if(min > compare) {
-                    min = compare;
+                compare = maxCardPrices.get(j) + maxCardPrices.get(i - 1 - j);
+                if(max < compare) {
+                   max = compare;
                 }
             }
-            minCardPrices.add(min);
+            maxCardPrices.add(max);
         }
 
         for(int i = cardPrices.size(); i < targetCard; i++) {
             for(int j = 0; j < Math.round((double)i / 2); j++) {
-                compare = minCardPrices.get(j) + minCardPrices.get(i - 1 - j);
-                if(min > compare) {
-                    min = compare;
+                compare = maxCardPrices.get(j) + maxCardPrices.get(i - 1 - j);
+                if(max < compare) {
+                    max = compare;
                 }
             }
-            minCardPrices.add(min);
+            maxCardPrices.add(max);
         }
 
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        bw.write(minCardPrices.get(targetCard - 1) + "");
+        bw.write(maxCardPrices.get(targetCard - 1) + "");
         bw.flush();
         bw.close();
     }

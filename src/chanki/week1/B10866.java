@@ -10,7 +10,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-public class Q10866 {
+public class B10866 {
     public static void main(String[] args) throws IOException {
         String command, str;
         int cnt;
