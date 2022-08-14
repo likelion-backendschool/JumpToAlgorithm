@@ -30,11 +30,13 @@ public class P42583 {
                     break;
                 }
 
-                else if(queue.size() == bridge_length) { // 큐에 다리 길이만큼 트럭에 다 찬 경우
+                // 큐에 다리 길이만큼 트럭에 다 찬 경우
+                else if(queue.size() == bridge_length) {
                     sum -= queue.poll();
                 }
 
-                else { // 다리 길이만큼 큐가 차지 않았을 경우
+                // 다리 길이만큼 큐가 차지 않았을 경우
+                else {
                     // weight 값을 넘지 않는 선에서 새로운 트럭에 다리에 올려준다.
                     if(sum + truck <= weight) {
                         queue.add(truck);
@@ -50,7 +52,7 @@ public class P42583 {
             }
         }
 
-        // 마지막 트럭에 반복문이 끝나는데, 마지막 역시 다리 길이만큼 지나가야 한다. + 다리 길
+        // 마지막 트럭에 반복문이 끝나는데, 마지막 역시 다리 길이만큼 지나가야 한다. + 다리 길이
         int answer = time + bridge_length;
 
         return answer;
