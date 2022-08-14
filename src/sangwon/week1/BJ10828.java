@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Q10828 {
+public class BJ10828 {
 	
 	static int stack[];
 	static int pos = 0;

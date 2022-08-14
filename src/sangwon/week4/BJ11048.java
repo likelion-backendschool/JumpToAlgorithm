@@ -1,4 +1,4 @@
 package sangwon.week4;
 
-public class Q11048 {
+public class BJ11048 {
 }

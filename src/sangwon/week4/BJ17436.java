@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 
-public class Q17436 {
+public class BJ17436 {
 
     //소수 받는 배열
     static int arr[];

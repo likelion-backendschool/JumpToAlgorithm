@@ -3,7 +3,7 @@ package sangwon.week1;
 import java.util.*;
 import java.io.*;
 
-public class Q1158 {
+public class BJ1158 {
 	
 	static ArrayList<Integer> al = new ArrayList<>();
 	static StringBuilder sb = new StringBuilder();

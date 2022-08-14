@@ -1,10 +1,8 @@
 package sangwon.week3;
 
-import java.util.*;
-import java.math.*;
 import java.io.*;
 
-public class Q11726 {
+public class BJ11726 {
 
     public static void main(String[] args) throws IOException{
         // TODO Auto-generated method stub

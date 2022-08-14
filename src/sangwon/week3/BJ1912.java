@@ -1,10 +1,9 @@
 package sangwon.week3;
 
 import java.util.*;
-import java.math.*;
 
 
-public class Q1912 {
+public class BJ1912 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Q9012 {
+public class BJ9012 {
 	
 	static boolean checker(String tmp) {
 		Stack<Character> stack = new Stack<>();

@@ -1,9 +1,8 @@
 package sangwon.week3;
 
 import java.util.Scanner;
-import java.math.*;
 
-public class Q11053 {
+public class BJ11053 {
 
 
     public static void main(String[] args) {
