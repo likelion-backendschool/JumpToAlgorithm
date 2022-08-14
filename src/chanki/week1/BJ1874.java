@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Stack;
 
-public class B1874 {
+public class BJ1874 {
     public static void main(String[] args) throws IOException {
         int cnt;
         int num = 1;

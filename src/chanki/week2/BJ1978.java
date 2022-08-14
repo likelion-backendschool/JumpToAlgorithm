@@ -1,24 +1,33 @@
-// 소수 구하기
+// 나머지
 package chanki.week2;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 
-public class B1929 {
+public class BJ1978 {
     public static void main(String[] args) throws Exception {
+        int test;
+        int cnt = 0;
         String[] input;
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb = new StringBuilder();
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
+        test = Integer.parseInt(br.readLine());
         input = br.readLine().split(" ");
 
-        for(int i = Integer.parseInt(input[0]); i <= Integer.parseInt(input[1]); i++) {
-            if(isPrime(i)) {
-                sb.append(i + "\n");
+        for(int i = 0; i < test; i++) {
+            if(isPrime(Integer.parseInt(input[i]))) {
+                cnt++;
             }
         }
-        System.out.println(sb);
+
+        bw.write(cnt + "");
+
+        bw.flush();
+        bw.close();
     }
 
     static boolean isPrime(int num) {

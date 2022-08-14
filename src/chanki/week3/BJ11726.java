@@ -7,7 +7,7 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class B11727 {
+public class BJ11726 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -17,7 +17,7 @@ public class B11727 {
         ArrayList<Integer> way = new ArrayList<Integer>(List.of(1, 1));
 
         for(int i = 2; i <= n; i++) {
-            result = (way.get(i - 2) * 2 + way.get(i - 1)) % 10007;
+            result = (way.get(i - 2) + way.get(i - 1)) % 10007;
             way.add(result);
         }
 

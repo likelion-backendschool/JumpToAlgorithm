@@ -6,7 +6,7 @@ import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class B1934 {
+public class BJ1934 {
     public static void main(String[] args) throws Exception {
         int a, b, m, n, test, temp;
         int leastCommonMultiple = 1;

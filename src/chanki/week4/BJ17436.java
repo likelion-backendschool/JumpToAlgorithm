@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class B17436 {
+public class BJ17436 {
 
     public int recursion(int[] primes, int lastIndex, int m) {
         int sum = 0;
@@ -35,7 +35,7 @@ public class B17436 {
         }
 
         for(int i = 0; i < n; i++) {
-            sum += new B17436().recursion(primes, i, m);
+            sum += new BJ17436().recursion(primes, i, m);
         }
 
         bw.write(sum + "");

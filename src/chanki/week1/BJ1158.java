@@ -10,7 +10,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class B1158 {
+public class BJ1158 {
     public static void main(String[] args) throws IOException {
         String input;
         Queue<Integer> queue = new LinkedList<>();
