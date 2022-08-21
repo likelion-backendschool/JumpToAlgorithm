@@ -1,8 +1,6 @@
 package sangwon.week5;
 
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class P42583 {
     //time 계산을 위한 클래스
@@ -73,7 +71,6 @@ public class P42583 {
         int arr[] = {7, 4, 5, 6};
 
         System.out.println(solution(bridge_length, weight, arr));
-
     }
 
 }
