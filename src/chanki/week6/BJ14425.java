@@ -1,4 +1,4 @@
-package chanki.week5;
+package chanki.week6;
 
 import java.io.BufferedReader;
 import java.io.IOException;
