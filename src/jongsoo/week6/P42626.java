@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class P42626 {
     public int solution(int[] scoville, int K) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         int answer = 0;
