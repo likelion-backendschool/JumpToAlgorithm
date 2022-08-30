@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Q1463 {
+public class BJ1463 {
 
     static Integer[] dp;
 
