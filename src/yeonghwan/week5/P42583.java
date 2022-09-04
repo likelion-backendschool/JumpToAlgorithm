@@ -3,16 +3,15 @@ package yeonghwan.week5;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-//시간 초과
-
 public class P42583 {
         public int P42583(int bridge_length, int weight, int[] truck_weights) {
             Queue<Integer> bridge = new ArrayDeque<>();
 
-            for(int i = 0; i<bridge_length - 1; i++) {
+            for(int i = 0; i < bridge_length - 1; i++) {
                 bridge.add(0);
             }
             int currentWeights = truck_weights[0];
+            bridge.add(currentWeights);
             int index = 1;
             int answer = 1;
 
@@ -26,7 +25,7 @@ public class P42583 {
                     if(currentWeights + truck_weights[index] <= weight){
                         currentWeights += truck_weights[index];
                         bridge.add(truck_weights[index++]);
-                    }else{
+                    } else {
                         bridge.add(0);
                     }
                 }
