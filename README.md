@@ -95,7 +95,7 @@
 |5|22.08.06|자료구조(1)|[다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583?language=java)|임소망|✅|
 |6|22.08.14|자료구조(2)|[더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626?language=java)|임소망|✅|
 |7|22.08.22|재귀, 정렬(1)|[시리얼 번호](https://www.acmicpc.net/problem/1431)|신상원|✅|
-|8|22.08.29|재귀, 정렬(2)|---|신상원|---|
+|8|22.08.29|재귀, 정렬(2)|[Z](https://www.acmicpc.net/problem/1074)|신상원|✅|
 |9|22.09.05|Dynamic Programming(1)|---|정영환|---|
 |10|22.09.12|Dynamic Programming(2)|---|정영환|---|
 |11|22.09.19|DFS, BFS(그래프)(1)|---|민찬기|---|
