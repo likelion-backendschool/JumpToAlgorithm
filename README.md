@@ -96,8 +96,8 @@
 |6|22.08.14|자료구조(2)|[더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626?language=java)|임소망|✅|
 |7|22.08.22|재귀, 정렬(1)|[시리얼 번호](https://www.acmicpc.net/problem/1431)|신상원|✅|
 |8|22.08.29|재귀, 정렬(2)|[Z](https://www.acmicpc.net/problem/1074)|신상원|✅|
-|9|22.09.19|DFS, BFS(그래프)(1)|---|민찬기|---|
-|10|22.09.26|DFS, BFS(그래프)(2)|---|민찬기|---|
+|9|22.09.19|DFS, BFS(그래프)(1)|[트리 순회](https://www.acmicpc.net/problem/1991)|민찬기|✅|
+|10|22.09.26|DFS, BFS(그래프)(2)|[DFS와 BFS](https://www.acmicpc.net/problem/1260)|민찬기|✅|
 |11|22.10.03|DFS, BFS(최단 경로)(1)|---|신상원|---|
 |12|22.10.10|DFS, BFS(최단 경로)(2)|---|신상원|---|
 |13|22.10.17|이분탐색과 분할정복(1)|---|민찬기|---|
