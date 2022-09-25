@@ -2,7 +2,7 @@ package jongsoo.week4;
 
 import java.io.*;
 
-public class Q1912 {
+public class BJ1912 {
     static int arr[];
     static int dp[];
     public static void main(String[] args) throws IOException{
