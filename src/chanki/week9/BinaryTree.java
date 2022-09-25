@@ -1,6 +1,7 @@
 package chanki.week9;
 
 class practiceNode {
+    // 구현
     int data;
     practiceNode left;
     practiceNode right;
@@ -19,6 +20,7 @@ class practiceTree {
 
     // 노드 생성
     public practiceNode makeNode(practiceNode left, int data, practiceNode right) {
+        // 구현
         practiceNode practiceNode = new practiceNode();
         practiceNode.data = data;
         practiceNode.left = left;
@@ -43,6 +45,7 @@ public class BinaryTree {
         practiceTree t = new practiceTree();
 
         // 노드 생성
+        // 구현
         practiceNode n4 = t.makeNode(null, 4, null);
         practiceNode n5 = t.makeNode(null, 5, null);
         practiceNode n3 = t.makeNode(null, 3, null);
